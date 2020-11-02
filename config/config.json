@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "slack_test_app",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "define":{
+      "paranoid":false,
+      "timestamps":true,
+      "freezeTableName": true,
+      "underscored": true
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "slack_test_app",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "slack_test_app",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
